@@ -1,0 +1,13 @@
+TestNg = unit, functional, integration, end to end and so on..
+Automation - Java+Selenium
+To solve real time business
+Requirements = java+selenium+testing framework
+
+Java(Programming language)
+
+
+Grouping Example:
+
+secnario: a big basket is having a different kind of mobiles.
+let us say there are apple phones, moto g, vivo and lenovo
+i want to run tests only for VIVO and moto phones. write a program for that.

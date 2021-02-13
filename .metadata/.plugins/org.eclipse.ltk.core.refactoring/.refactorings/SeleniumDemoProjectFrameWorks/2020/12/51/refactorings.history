@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LoginTestCae_UsingDataDriven.Login1&apos; to &apos;Login1_jxl&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumDemoProjectFrameWorks&apos;&#x0D;&#x0A;- Original element: &apos;LoginTestCae_UsingDataDriven.Login1&apos;&#x0D;&#x0A;- Renamed element: &apos;LoginTestCae_UsingDataDriven.Login1_jxl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Login1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;LoginTestCae_UsingDataDriven{Login1.java[Login1" matchStrategy="1" name="Login1_jxl" qualified="false" references="true" similarDeclarations="false" stamp="1607864071133" textual="false" version="1.0"/>
+</session>

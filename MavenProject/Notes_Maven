@@ -1,0 +1,14 @@
+gROUP ID: Generally it will be company name
+Artifactid: Project name
+Version:Version number
+Example:
+com.google (group id)
+this can have artifacts like
+translate,blogger,youtube, drive, hangouts and their version details
+lifecycles
+phases
+goals
+maven central repository
+archetypes
+dependencies
+plugins

@@ -1,0 +1,68 @@
+
+Terminology:
+
+gROUP ID: Generally it will be company name.
+Artifactid: Project name
+Version:Version number
+Example:
+com.google (group id)
+This can have artifacts like translate,blogger,youtube, 
+drive, hangouts and their version details..
+lifecycles
+phases
+goals
+maven central repository
+archetypes
+dependencies
+plugins
+
+why maven:
+
+can manage dependencies on our behalf
+can maintain proper structure
+can build the code for us.
+can create documentation sites
+
+
+what is maven:
+
+First things first
+Installation
+https://mkyong.com/maven/how-to-install-maven-in-windows/
+
+points to remember:
+
+archetype: is nothing but the template.sample project template 
+as per our requirement.we can choose archetype.It will create
+required template.
+
+dependencies:
+
+depend on others.
+
+dependencies is nothing but jars which we used in the projects..
+
+Plugin:
+ it's like dependencies but differ from dependancies
+ 
+ ex: compiler plugin
+ 
+ lifecycle:
+ 
+ 
+ maven central repository:
+ 
+ maven central is websites. it stores all java related libraries, dependencies
+ and jars..
+ 
+ mvnrepository.com
+ 
+ src/main/java - the main code will be there in the folder.
+ src/main/resources - the sub codes or chrome drivers will be there..
+ 
+ Build tool:
+ 
+ Maven is build tool..
+
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" verbose="2" parallel = "methods" thread-count ="2">
+<listeners>
+<listener class-name="TestNG.TestNGListeners"></listener>
+</listeners>
+<test name = "Test Cases">
+<classes>
+<class name="TestNG.SampleTestCase"></class>
+</classes>
+</test>
+</suite>
+
+
+<!-- <class name="TestNG.DependenciesManagement"></class>
+<class name="TestNG.DriveACar"></class>
+<class name="TestNG.SampleTestCase"></class>
+<class name="TestNG.TestNGSkip"></class> -->
+
+
+
+<!-- <groups>
+<parameter name="Name" value="Duck"></parameter>
+<run>
+<include name="motto"></include>
+<include name="vivo"></include>
+if required we can use exclude: <exclude name=""></exclude>
+</run>
+</groups> -->

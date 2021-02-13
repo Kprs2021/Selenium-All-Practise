@@ -1,0 +1,82 @@
+package SeleniumMaven;
+
+import java.io.IOException;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Key;
+import org.sikuli.script.Screen;
+
+public class SikuliPutty {
+
+	public static void main(String[] args) throws IOException, FindFailed, InterruptedException {
+
+		String Path = "C:\\Program Files (x86)\\WinSCP\\WinSCP.exe";
+		String loginButton = "C:\\Users\\probe7\\eclipse-workspace\\MavenIntegration\\ScreenShots\\Login.PNG";
+		String loginPass = "Kprs@2021";
+		String Winscpsubmit = "C:\\Users\\probe7\\eclipse-workspace\\MavenIntegration\\ScreenShots\\Winscpsubmit.PNG";
+		String puttyClick = "C:\\Users\\probe7\\eclipse-workspace\\MavenIntegration\\ScreenShots\\PuttyConnect.PNG";
+		String lsCommand = "ls";
+		String lslCommand = "ls -l";
+		String ExitCommand = "exit";
+		String Enter = "Key.ENTER";
+		String sampleSQL = "sampleSQL.txt";
+		String updateSQL = "updateStatusSQL.txt";
+		
+
+		Runtime runtime = Runtime.getRuntime();
+
+		runtime.exec(Path);
+
+		Screen ssik = new Screen();
+
+		Thread.sleep(3000);
+
+		ssik.click(loginButton);
+
+		Thread.sleep(4000);
+
+		ssik.type(loginPass);
+	
+		Thread.sleep(3000);
+
+		ssik.click(Winscpsubmit);
+
+		Thread.sleep(4000);
+
+		ssik.click(puttyClick);
+	
+		Thread.sleep(4000);
+
+		ssik.type(loginPass);
+
+		Thread.sleep(3000);
+
+		ssik.type(Key.ENTER);
+
+		Thread.sleep(3000);
+
+		ssik.type(lsCommand);
+		ssik.type(Key.ENTER);
+
+		Thread.sleep(3000);
+
+		ssik.type(lslCommand);
+		ssik.type(Key.ENTER);
+		
+		Thread.sleep(3000);
+
+		ssik.type(sampleSQL);
+		ssik.type(Key.ENTER);
+		
+		Thread.sleep(3000);
+
+		ssik.type(updateSQL);
+		ssik.type(Key.ENTER);
+		
+		
+
+//		ssik.type(ExitCommand);
+//		ssik.type(Key.ENTER);
+
+	}
+
+}

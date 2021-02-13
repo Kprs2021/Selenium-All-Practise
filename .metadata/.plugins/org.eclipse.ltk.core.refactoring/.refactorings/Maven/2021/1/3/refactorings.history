@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;OpenGoogle.java&apos; to &apos;ExtentReportViaMaven/src/main/java/SeleniumMaven&apos;&#x0D;&#x0A;- Original project: &apos;Maven&apos;&#x0D;&#x0A;- Destination element: &apos;ExtentReportViaMaven/src/main/java/SeleniumMaven&apos;&#x0D;&#x0A;- Original element: &apos;SeleniumTest.OpenGoogle.java&apos;" description="Copy compilation unit" destination="=ExtentReportViaMaven/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;SeleniumMaven" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;SeleniumTest{OpenGoogle.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1610295545782" units="1" version="1.0"/>
+</session>

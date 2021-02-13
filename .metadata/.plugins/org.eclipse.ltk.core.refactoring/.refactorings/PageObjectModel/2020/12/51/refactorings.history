@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;PageObjectModeltest.LoginusingBy&apos; to &apos;LoginusingBy_pagefactory&apos;&#x0D;&#x0A;- Original project: &apos;PageObjectModel&apos;&#x0D;&#x0A;- Original element: &apos;PageObjectModeltest.LoginusingBy&apos;&#x0D;&#x0A;- Renamed element: &apos;PageObjectModeltest.LoginusingBy_pagefactory&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LoginusingBy&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;PageObjectModeltest{LoginusingBy.java[LoginusingBy" matchStrategy="1" name="LoginusingBy_pagefactory" qualified="false" references="true" similarDeclarations="false" stamp="1608225597961" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Test Suite]">
+  <parameter name="NAme" value="Duck"/>
+  <test name="Test Cases(failed)" preserve-order="true">
+    <parameter name="NAme" value="Duck"/>
+    <classes>
+      <class name="TestNG.TestNGParamerization">
+        <methods>
+          <include name="printname"/>
+        </methods>
+      </class> <!-- TestNG.TestNGParamerization -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

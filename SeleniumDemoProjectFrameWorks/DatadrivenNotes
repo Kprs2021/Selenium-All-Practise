@@ -1,0 +1,26 @@
+Steps with Apache POI Jar
+
+Step:1 read the file location..
+Step:2 Create object for workbook
+Step:3 go to the sheet to be worked on
+Step:4 Row iteration and get the values
+Step:5 cell iteration and get the cell values
+
+HSSF-->A microsoft Excel 2003 File
+XSSF --> Microsoft Excel 2007 file or later
+XSSFWorkbook and HSSFWorkbook -->Excel workbook
+HSSFSheet and XSSFSheet are classes which act as an Excel worksheet
+Row defines an excel row
+Cell defines an excel cell addressed in reference to a row.
+
+
+Steps with JXL Jars:
+
+Note: 97*2003 only we have to save. then only we can able to use jxl jar.
+Step:1 File location = I:\DataDriven Tesing\TestData.xlsx
+Step:2 Get workbook
+Step:3 Get sheet
+Step:4 Get Rows
+Step:5 Get coloumns
+Step:6 Iterate and get cell values
+

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35585" started-at="2021-01-12T10:09:26 IST" finished-at="2021-01-12T10:10:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35585" started-at="2021-01-12T10:09:26 IST" finished-at="2021-01-12T10:10:02 IST">
+      <class name="LoginTestCae_UsingDataDriven.Login1_jxl">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="beforeTest" is-config="true" duration-ms="8019" started-at="2021-01-12T10:09:26 IST" finished-at="2021-01-12T10:09:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="LoginApplication(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="LoginApplication" duration-ms="12517" started-at="2021-01-12T10:09:35 IST" data-provider="loginData" finished-at="2021-01-12T10:09:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method status="PASS" signature="LoginApplication(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="LoginApplication" duration-ms="3144" started-at="2021-01-12T10:09:47 IST" data-provider="loginData" finished-at="2021-01-12T10:09:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wroungpswd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method status="PASS" signature="LoginApplication(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="LoginApplication" duration-ms="2780" started-at="2021-01-12T10:09:50 IST" data-provider="loginData" finished-at="2021-01-12T10:09:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wroungusnm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method status="PASS" signature="LoginApplication(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="LoginApplication" duration-ms="1950" started-at="2021-01-12T10:09:53 IST" data-provider="loginData" finished-at="2021-01-12T10:09:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wroungusnm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wroungpswd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method status="PASS" signature="LoginApplication(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="LoginApplication" duration-ms="1977" started-at="2021-01-12T10:09:55 IST" data-provider="loginData" finished-at="2021-01-12T10:09:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jdshgkjdshjhd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gdsjkhjdsh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method status="PASS" signature="LoginApplication(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="LoginApplication" duration-ms="1900" started-at="2021-01-12T10:09:57 IST" data-provider="loginData" finished-at="2021-01-12T10:09:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jsdlkjds]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[64646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method status="PASS" signature="LoginApplication(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="LoginApplication" duration-ms="1992" started-at="2021-01-12T10:09:59 IST" data-provider="loginData" finished-at="2021-01-12T10:10:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gjkgkjghj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[354134]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApplication -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:LoginTestCae_UsingDataDriven.Login1_jxl@167fdd33]" name="afterTest" is-config="true" duration-ms="847" started-at="2021-01-12T10:10:01 IST" finished-at="2021-01-12T10:10:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- LoginTestCae_UsingDataDriven.Login1_jxl -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
